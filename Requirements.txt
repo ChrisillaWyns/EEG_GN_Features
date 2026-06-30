@@ -1,0 +1,25 @@
+The code provided reproduces the preprocessing and feature extraction
+pipeline described in the manuscript.
+
+Contents
+
+1. Wavelet filtering
+2. Feature extraction
+3. Graph construction
+4. GCN model
+5. Subject-wise SGKF and LOSO evaluation
+
+Software
+
+Python 3.11
+TensorFlow 2.18
+PyWavelets
+NumPy
+SciPy
+Scikit-learn
+
+Dataset
+
+PhysioNet EEG Motor Movement/Imagery
+BCI Competition IV-2a
+BCI Competition IV-2b
